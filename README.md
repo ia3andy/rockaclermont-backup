@@ -41,7 +41,11 @@ Or, if you don't have GraalVM installed, you can run the native executable build
 ./mvnw package -Pnative -Dquarkus.native.container-build=true
 ```
 
+<<<<<<< HEAD
 You can then execute your native executable with: `./target/rockaclermont-backup-1.0.0-SNAPSHOT-runner`
+=======
+You can then execute your native executable with: `./target/rock-a-clermont-1.0.0-SNAPSHOT-runner`
+>>>>>>> 141b63e... Step 1 - Classic RESTEasy, Hibernate, Panache, OpenAPI and Swagger
 
 If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.html.
 
@@ -56,3 +60,12 @@ If you want to learn more about building native executables, please consult http
 REST is easy peasy with this Hello World RESTEasy resource.
 
 [Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
+<<<<<<< HEAD
+=======
+
+### RESTEasy JSON serialisation using Jackson
+
+This example demonstrate RESTEasy JSON serialisation by letting you list, add and remove quark types from a list. Quarked!
+
+[Related guide section...](https://quarkus.io/guides/rest-json#creating-your-first-json-rest-service)
+>>>>>>> 141b63e... Step 1 - Classic RESTEasy, Hibernate, Panache, OpenAPI and Swagger
