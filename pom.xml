@@ -58,12 +58,6 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-swagger-ui</artifactId>
     </dependency>
-
-    <!-- Step 3 -->
-    <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-smallrye-health</artifactId>
-    </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-micrometer</artifactId>
@@ -76,7 +70,6 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-openshift</artifactId>
     </dependency>
-
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-arc</artifactId>
